@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#sobre {
+    background-color: #e0e0e0;
+    padding: 40px;
+    text-align: center;
+}
+
+#produtos {
+    text-align: center;
+}
+
+.produtos-galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produtos-itens {
+    margin: 10px;
+    width: 30%;
+    min-width: 5%;
+}
+
+.produtos-itens img {
+    min-width: 5%;
+    width: 30%;
+    height: fit-content;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h4 {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+#equipes {
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+.equipes-membros {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.equipes-membro {
+    width: 30%;
+    text-align: center;
+}
+
+.equipes-membro img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#contato {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: auto;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
